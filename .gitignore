@@ -1,0 +1,44 @@
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+backend/config.js
+*.pem
+*.key
+
+# User data and local databases
+backend/data/
+backend/vector_data/
+*.sqlite
+*.sqlite3
+*.db
+
+# Runtime output
+*.log
+*.pid
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / TypeScript
+node_modules/
+frontend/dist/*.map
+npm-debug.log*
+
+# Local deployment binaries and presentation artifacts
+tools/*.exe
+*.pptx
+generate_report_ppt.ps1
+tools/redesign_ppt.py
+legacy-static/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

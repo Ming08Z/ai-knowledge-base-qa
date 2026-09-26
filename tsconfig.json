@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "None",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "rootDir": "frontend/src",
+    "outDir": "frontend/dist",
+    "removeComments": false,
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true
+  },
+  "include": ["frontend/src/**/*.ts"]
+}
+
